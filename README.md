@@ -9,10 +9,8 @@ Ce document décrit les exigences fonctionnelles et non fonctionnelles pour une 
 
 ### 1. Fonctionnalités de la Page d'Accueil
 La page d'accueil publique de la plateforme SaaS comprendra :
-- **Section Héros :** Slogan accrocheur, avantages du produit et boutons d’appel à l’action (ex. : "Commencer" ou "Voir les plans").
-- **Vue d’ensemble des plans et tarifs :** Mise en avant des trois plans d’abonnement avec leurs fonctionnalités et prix.
-- **Galerie de thèmes préconstruits :** Une galerie de modèles adaptés à divers secteurs.
-- **Points forts des fonctionnalités :** Fonctionnalités clés telles que gestion des produits, gestion des commandes et support multilingue.
+- **Section Héros :** Slogan accrocheur, avantages du produit et boutons d’appel à l’action (ex. : "Commencer").
+- **Points forts des fonctionnalités :** Fonctionnalités clés telles que gestion des produits et gestion des commandes.
 - **Témoignages clients :** Avis de clients satisfaits.
 - **Aperçu de démonstration :** Aperçu en direct d’une boutique d’exemple pour démontrer les capacités.
 - **Section FAQ :** Réponses aux questions fréquemment posées sur la plateforme.
@@ -25,30 +23,21 @@ Le panneau d’administration pour la gestion de la plateforme SaaS inclura :
 - Voir et gérer les comptes des propriétaires de boutiques.
 - Approuver, suspendre ou supprimer des comptes.
 
-#### Gestion des Plans
-- Définir et mettre à jour les plans d’abonnement et leurs fonctionnalités.
-
-#### Gestion des Paiements
-- Suivre les paiements d’abonnement et les comptes en retard.
-
 #### Gestion des Thèmes
-- Ajouter, mettre à jour ou supprimer les thèmes préconstruits disponibles pour les utilisateurs.
+- Ajouter, mettre à jour ou supprimer les options de couleurs disponibles pour les utilisateurs.
 
 #### Tableau de Bord Analytique
 - Voir les métriques sur l’utilisation du SaaS, les boutiques actives et les revenus.
-
-#### Gestion des Tickets de Support
-- Gérer les questions ou problèmes techniques signalés par les propriétaires de boutiques.
 
 #### Gestion de l’Hébergement
 - Assurer un hébergement fluide pour toutes les boutiques (par exemple, sous-domaines ou domaines personnalisés).
 
 ### 3. Fonctionnalités pour les Propriétaires de Boutiques
-Ces fonctionnalités seront accessibles aux commerçants abonnés à la plateforme SaaS :
+Ces fonctionnalités seront accessibles aux commerçants utilisant la plateforme SaaS :
 
 #### Gestion Générale de la Boutique
-- **Personnalisation de la Boutique :** Personnaliser le logo, les couleurs, les polices et les éléments de base de la page d’accueil.
-- **Sélection de Thèmes :** Choisir parmi des modèles préconstruits adaptés à divers secteurs.
+- **Personnalisation de la Boutique :** Personnaliser le logo, les couleurs et les éléments de base de la page d’accueil.
+- **Sélection de Couleurs :** Choisir parmi des options de couleurs disponibles.
 
 #### Gestion des Produits
 - Ajouter/modifier/supprimer des produits avec images, descriptions et prix.
@@ -62,50 +51,17 @@ Ces fonctionnalités seront accessibles aux commerçants abonnés à la platefor
 - Voir et gérer les données des clients, y compris l’historique des commandes et les préférences.
 
 #### Rapports et Analyses
-- Consulter les tendances de vente, les performances des produits et les informations sur les clients (varie selon le plan).
+- Consulter les tendances de vente et les performances des produits.
 
 #### Configuration des Expéditions
-- Définir des tarifs forfaitaires, des tarifs des transporteurs ou des seuils de livraison gratuite.
-
-#### Outils Marketing
-- Gérer les codes de réduction et les promotions (varie selon le plan).
-- Envoyer des campagnes par e-mail aux clients (disponible dans les plans supérieurs).
+- Définir des tarifs forfaitaires, des seuils de livraison gratuite.
 
 ### 4. Fonctionnalités pour les Clients (Visiteurs des Boutiques)
 Ces fonctionnalités seront disponibles pour les clients visitant les boutiques individuelles :
 - **Design Adaptatif :** Accessible sur ordinateurs, tablettes et smartphones.
 - **Navigation Produits :** Rechercher et filtrer les produits par catégories, prix et popularité.
-- **Panier et Paiement :** Ajouter des produits au panier, appliquer des remises et effectuer des paiements sécurisés.
+- **Panier et Paiement :** Ajouter des produits au panier et effectuer des paiements (seule option disponible : Paiement à la livraison (COD)).
 - **Suivi de Commandes :** Consulter le statut de leurs commandes.
-- **Support Multilingue :** Naviguer dans la boutique dans leur langue préférée (Plans Professionnel et Enterprise).
-
-### 5. Fonctionnalités Spécifiques aux Plans
-
-#### Plan Starter (19€/mois)
-- Thèmes basiques préconstruits.
-- Gérer jusqu’à 100 produits.
-- Rapports de vente basiques (quotidiens/mensuels).
-- Hébergement en sous-domaine (ex. : maboutique.saashost.com).
-- Intégration avec Stripe et PayPal.
-- Gestion basique des stocks.
-
-#### Plan Professionnel (49€/mois)
-- Toutes les fonctionnalités du Plan Starter.
-- Gérer jusqu’à 500 produits.
-- Analyses avancées des ventes et des clients.
-- Connexion de domaines personnalisés (ex. : maboutique.com).
-- Thèmes premium.
-- Support multilingue.
-- Outils marketing (ex. : campagnes par e-mail).
-- Options d’expédition (tarifs forfaitaires, tarifs en temps réel des transporteurs).
-
-#### Plan Enterprise (99€/mois)
-- Toutes les fonctionnalités du Plan Professionnel.
-- Gestion de produits illimitée.
-- Fonctionnalité multi-vendeurs (configuration de marketplace).
-- Rapports avancés avec fonctionnalité d’exportation.
-- Livraison de produits numériques pour des articles comme des eBooks et des logiciels.
-- Rôles d’équipe avec accès basé sur les rôles.
 
 ---
 
@@ -139,3 +95,4 @@ Ces fonctionnalités seront disponibles pour les clients visitant les boutiques 
 
 ### Hébergement
 - Configuration en Machine Virtuelle ou Docker pour un déploiement flexible et isolé.
+
