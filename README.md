@@ -275,3 +275,50 @@ En fonction des versions et des fonctionnalités ajoutées, plusieurs niveaux d�
   - Rapports avancés avec fonctionnalité d’exportation.
   - Livraison de produits numériques pour des articles comme des eBooks et des logiciels.
   - Rôles d’équipe avec accès basé sur les rôles.
+
+## 8. Inspirations et Références
+Cette section regroupe les plateformes et solutions existantes qui ont inspiré le développement de la plateforme SaaS, que ce soit en termes de design, fonctionnalités ou expérience utilisateur.
+
+### 8.1 Plateformes E-commerce Référentes
+Plusieurs solutions e-commerce reconnues ont servi de référence pour concevoir une expérience fluide et performante :
+
+- Shopify : simplicité d’utilisation, modèles préconstruits attractifs, système d’abonnement SaaS efficace.
+- Wix eCommerce : personnalisation avancée et éditeur visuel intuitif.
+- BigCommerce : gestion avancée des produits et des ventes avec des outils analytiques détaillés.
+### 8.2 Inspirations UI/UX
+L’expérience utilisateur et l’interface graphique ont été inspirées des meilleures pratiques en matière de design moderne et minimaliste :
+
+- Apple Store : design épuré, navigation fluide et expérience immersive.
+- Notion : approche modulaire et intuitive pour l’organisation des contenus.
+- Tailwind UI : composants réutilisables et esthétiques basés sur TailwindCSS.
+- Dribbble : source d’inspiration pour les tendances UI/UX et les designs innovants.
+### 8.3 Inspirations Fonctionnalités et Modèle Économique
+- Gumroad : facilité de mise en ligne et de gestion des produits numériques.
+- Substack : monétisation via abonnements récurrents.
+- Figma : collaboration en ligne et flexibilité d’adaptation aux besoins des utilisateurs.
+
+## 9. Différenciation et Valeur Ajoutée
+Cette section met en avant ce qui distingue la plateforme des autres solutions existantes et les éléments de valeur ajoutée qui la rendent unique pour les commerçants du secteur de la mode.
+
+### 9.1 Spécialisation dans la Mode et le Fashion
+Contrairement aux plateformes e-commerce généralistes, cette solution est spécifiquement conçue pour les boutiques de mode, avec :
+
+- Des thèmes optimisés pour la présentation de vêtements, accessoires et collections.
+- Une gestion avancée des variations de produits (tailles, couleurs, matières).
+- Une expérience utilisateur pensée pour le storytelling visuel et l’esthétique des marques fashion.
+### 9.2 Simplicité et Accessibilité
+- Zéro compétence technique requise : l’interface est conçue pour être intuitive et facile à prendre en main.
+- Modèles préconstruits professionnels : permettant aux commerçants de lancer leur boutique rapidement.
+- Infrastructure SaaS : pas besoin de gérer l’hébergement ou la maintenance technique.
+### 9.3 Abonnement Flexible et Coût Maîtrisé
+- Plans tarifaires adaptés aux besoins des petites et grandes boutiques.
+- Absence de commission sur les ventes, contrairement à certaines marketplaces.
+- Infrastructure scalable permettant d’évoluer facilement selon la croissance du commerce.
+### 9.4 Expérience Utilisateur Optimisée
+- Navigation rapide et fluide grâce à l’utilisation de Vue.js et TailwindCSS.
+- Responsive design optimisé pour mobile, où une grande partie du shopping mode est réalisée.
+- Personnalisation simplifiée, avec des options accessibles directement depuis le tableau de bord.
+### 9.5 Vision à Long Terme
+- Ajout progressif de nouvelles fonctionnalités basées sur les retours des utilisateurs.
+- Possibilité future de marketplace multi-vendeurs, pour transformer les boutiques en plateformes collaboratives.
+- Écosystème en expansion, avec l’intégration future d’outils marketing et analytiques avancés.
