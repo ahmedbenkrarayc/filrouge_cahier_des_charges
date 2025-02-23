@@ -162,33 +162,41 @@ Pour garantir la stabilité du service, plusieurs actions seront mises en place 
 - Mise à jour fréquente de la plateforme pour renforcer la sécurité et optimiser les performances.
 
 ## 5. Charte Graphique
-La charte graphique définira l’identité visuelle de la plateforme SaaS afin d’assurer une cohérence esthétique et une expérience utilisateur agréable. Elle reposera sur des principes de modernité, simplicité et professionnalisme, adaptés au secteur de la mode et du e-commerce.
+La charte graphique définit l’identité visuelle de la plateforme SaaS afin d’assurer une cohérence esthétique et une expérience utilisateur optimale. Deux palettes distinctes seront utilisées :
 
+- Palette pour les Dashboards (Admin & Commerçants) : Design professionnel, clair et fonctionnel.
+- Palette pour les Boutiques (Front-Store) : Design attractif et inspiré de l’univers fashion.
 ### 5.1 Palette de Couleurs
-Les couleurs choisies devront refléter une image élégante et contemporaine, en cohérence avec l’univers du fashion et du digital.
+#### Palette des Dashboards (Admin & Commerçants)
+Cette palette met l’accent sur la lisibilité et la clarté, garantissant une interface intuitive et agréable pour la gestion des boutiques.
 
-- Couleur principale : [#000000]
-- Couleurs secondaires : [#FFFFFF], [#CCCCCC]
-- Couleurs d’accentuation : [#FFD700], [#FF69B4]
-Les couleurs seront utilisées de manière équilibrée afin de garantir une lisibilité optimale et une expérience utilisateur fluide.
+- Couleur principale : [#222222] (Forte identité, professionnalisme, modernité)
+- Couleurs secondaires : [#FFFFFF], [#F8F8F8] (Contraste élevé, amélioration de la lisibilité, fond épuré)
+- Couleurs d’accentuation : [#493D9E] (Boutons et logo – Identité visuelle forte, touche premium et moderne), [#28C76F] (Statut actif – Confirmation et succès), [#FF9F43] (Suspension – Avertissement visuel équilibré), [#EA5455] (Suppression – Action critique et immédiate)
+#### Palette des Boutiques (Front-Store)
+L’esthétique des boutiques doit refléter le dynamisme et l’élégance du secteur de la mode, tout en restant adaptable aux différentes marques.
 
+- Couleur principale : [#1E1D1D] (Tonalité sombre et élégante, renforce le côté premium et moderne du store)
+- Couleurs secondaires :
+[#FFFFFF] (Texte sur fonds sombres, contrastes élevés, lisibilité optimale)
+[#D7D7D7] (Éléments neutres et séparateurs subtils, apporte une touche de légèreté à l'interface)
+[#E7E7E7] (Arrière-plans clairs et légers, pour une hiérarchie visuelle équilibrée)
+- Couleurs d’accentuation :
+[#1D242D] (Tons sombres et profonds pour un effet sophistiqué sur certaines sections)
+[#77889B] (Accent discret pour des éléments interactifs ou secondaires, modernité et douceur)
+[#000000] (Utilisé à 52 % pour certaines zones d’ombres ou éléments transparents, ajout de profondeur visuelle)
 ### 5.2 Typographie
-La typographie principale de la plateforme sera Poppins, une police sans-serif moderne et épurée, qui assure lisibilité et élégance sur tous les supports.
-
-- Poppins (police principale) : utilisée pour les titres, menus et textes importants.
-- Une police secondaire sobre (ex. Open Sans ou Roboto) pourra être utilisée pour les textes longs afin d’améliorer le confort de lecture.
+- Police principale : Poppins (Moderne, élégante et parfaitement adaptée au digital)
+- Police secondaire : Open Sans ou Roboto (Lisibilité améliorée pour les longs textes et descriptions)
 ### 5.3 Iconographie et Illustrations
-L’iconographie devra être minimaliste et vectorielle, avec des icônes épurées pour faciliter la navigation. Les illustrations devront être utilisées avec parcimonie pour ne pas alourdir l’interface.
-
-### 5.4 Style UI/UX
-L’interface devra suivre les principes suivants :
-
-- Design épuré et structuré : utilisation d’espaces blancs pour aérer les contenus et améliorer la lisibilité.
-- Boutons et éléments interactifs bien contrastés pour faciliter l’accessibilité.
-- Animations fluides et discrètes pour améliorer l’expérience utilisateur sans ralentir la navigation.
+- Dashboards : Icônes minimalistes et monochromes pour une navigation intuitive.
+- Boutiques : Visuels plus expressifs, favorisant le storytelling et l’esthétique propre à chaque marque.
+### 5.4 UI/UX et Expérience Utilisateur
+- Dashboards : Design sobre et structuré, avec des contrastes clairs pour une lecture efficace.
+- Boutiques : Layout immersif et dynamique, mettant en avant les produits grâce à une utilisation stratégique des espaces et des couleurs d’accentuation.
 ### 5.5 Adaptabilité et Responsive Design
-La plateforme devra être entièrement responsive, optimisée pour une navigation fluide sur mobile, tablette et ordinateur.
-L'affichage des éléments devra s’adapter automatiquement en fonction de la taille de l’écran tout en préservant la clarté et l’ergonomie.
+- Interfaces adaptées à tous les supports (ordinateur, tablette, mobile).
+- Expérience fluide avec animations légères pour renforcer l’engagement des utilisateurs.
 
 ## 6. Spécifications Techniques
 Cette section décrit les technologies et outils qui seront utilisés pour le développement, l’hébergement et la gestion du projet de la plateforme SaaS.
